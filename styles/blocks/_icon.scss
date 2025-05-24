@@ -1,0 +1,16 @@
+@use '../helpers/' as *;
+
+.promo__link {
+  display: inline-flex;
+  align-items: center;
+  column-gap: rem(10);
+
+  .icon--yellow-arrow {
+    width: rem(24);
+
+    @include laptop {
+     width: rem(20);
+    }
+  }
+}
+
